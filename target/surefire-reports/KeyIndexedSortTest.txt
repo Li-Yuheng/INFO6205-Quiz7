@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: KeyIndexedSortTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.091 s <<< FAILURE! -- in KeyIndexedSortTest
+KeyIndexedSortTest.testEqualCharacters -- Time elapsed: 0.009 s <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at KeyIndexedSort.sortByPosition(KeyIndexedSort.java:37)
+	at KeyIndexedSortTest.testEqualCharacters(KeyIndexedSortTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+KeyIndexedSortTest.testSortByPositionBasic -- Time elapsed: 0.008 s <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+	at KeyIndexedSort.sortByPosition(KeyIndexedSort.java:37)
+	at KeyIndexedSortTest.testSortByPositionBasic(KeyIndexedSortTest.java:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
